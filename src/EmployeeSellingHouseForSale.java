@@ -14,10 +14,7 @@ public class EmployeeSellingHouseForSale extends BaseBonusManager  implements Da
 
     }
 
-    @Override
-    public void showprice() {
 
-    }
 
 
 

@@ -3,19 +3,14 @@ public  class BonusPayUI  {
 
 
 
-
-    public void showprice2(){
-
-    }
-
     public void makeRaise(EmployeeSellingHouseForSale baseBonusManager){
         baseBonusManager.makeRaise();
-        //arayüz classı managerda yazdığınız kodu burada çağırısınız
+        //arayüz classı managerda yazdığımız kodu burada çağırırız.
 
     }
     public void makeRaise(EmployeeSellingHouseForRent baseBonusManager){
         baseBonusManager.makeRaise();
-        //arayüz classı managerda yazdığınız kodu burada çağırısınız
+        //arayüz classı managerda yazdığımız kodu burada çağırırız.
 
     }
 
@@ -28,7 +23,7 @@ public  class BonusPayUI  {
 
 
     public void showprice() {
-        System.out.println("salary before commission : $3500");
+        System.out.println("Salary of employees before commission: $3500");
     }
 
     public void  BonusAddprice(EmployeeSellingHouseForRent employeeSellingHouseForRent){

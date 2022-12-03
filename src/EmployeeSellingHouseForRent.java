@@ -17,14 +17,11 @@ public class EmployeeSellingHouseForRent extends BaseBonusManager implements Dat
 
     @Override
     public void makeRaise() {
-       System.out.println("Real estate agents rent houses: %7 salary");
+       System.out.println("Real estate agents rent houses: %7 commission");
 
     }
 
-    @Override
-    public void showprice() {
 
-    }
 
 
 
