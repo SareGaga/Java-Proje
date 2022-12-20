@@ -17,6 +17,6 @@ public class EmployeeSellingHouseForSale extends BaseBonusManager  implements Da
 
     @Override
     public void Add() {
-        System.out.println("\n" +"Added to home sales database");
+        System.out.println("Updated commissions for employees selling homes");
     }
 }

@@ -24,6 +24,6 @@ public class EmployeeSellingHouseForRent extends BaseBonusManager implements Dat
 
     @Override
     public void Add() {
-        System.out.println("Home rental sales added to database");
+        System.out.println("Updated the commissions of employees who rent a house");
     }
 }
