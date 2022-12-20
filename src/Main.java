@@ -1,10 +1,11 @@
 
-import jdk.jshell.spi.ExecutionControl;
+
 
 import java.util.ArrayList;
 
 
-import java.util.LinkedList;
+import java.util.HashSet;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +24,8 @@ public class Main {
 
         bonusPayUI.BonusAddprice(new EmployeeSellingHouseForSale());
         bonusPayUI.makeRaise(new EmployeeSellingHouseForSale());
+
+        System.out.println("     ");
 
         bonusPayUI.Add(new EmployeeSellingHouseForSale());
 
@@ -71,22 +74,17 @@ public class Main {
         System.out.println("\tOur top 5 home sales employees this month");
         System.out.println("");
 
-        TopMonth<String> TopEmployee = new TopMonth<String>();
+        TopMonth <String> TopEmployee = new TopMonth<String>();
         TopEmployee.add("Harry Williams ");
         TopEmployee.add("Abbey Jones   ");
         TopEmployee.add("Oliver Smith   ");
         TopEmployee.add("Angelina Gray  ");
-        employerName.add("Agatha Carney  ");
+        TopEmployee.add("Agatha Carney  ");
 
-        LinkedList<String> TopEmployeeList = TopEmployee.getirLinkedList();
+        HashSet<String> TopEmployeeList = TopEmployee.getirHashSet();
 
+        System.out.println(" Employee Name  " + TopEmployeeList);
 
-
-
-
-        for(int i = 0; i < TopEmployeeList.size(); i++){
-            System.out.println(" Employee Name  " + TopEmployeeList.get(i));
-        }
 
 
 

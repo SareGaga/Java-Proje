@@ -1,14 +1,15 @@
-import java.util.LinkedList;
+import java.util.HashSet;
+
 
 public class TopMonth <K> {
-    public LinkedList<K> TopMonth = new LinkedList<K>();
+    public HashSet<K> TopMonth = new HashSet<K>();
     public void add(K eleman){
 
         this.TopMonth.add(eleman);
     }
 
 
-    public LinkedList<K> getirLinkedList() {
+    public HashSet<K> getirHashSet() {
         return this.TopMonth;
     }
 }
