@@ -1,4 +1,6 @@
 
+import jdk.jshell.spi.ExecutionControl;
+
 import java.util.ArrayList;
 
 
@@ -22,7 +24,7 @@ public class Main {
         bonusPayUI.BonusAddprice(new EmployeeSellingHouseForSale());
         bonusPayUI.makeRaise(new EmployeeSellingHouseForSale());
 
-        System.out.println("     ");
+        bonusPayUI.Add(new EmployeeSellingHouseForSale());
 
         bonusPayUI.Add(new EmployeeSellingHouseForRent());
 
@@ -30,7 +32,12 @@ public class Main {
 
 
 
-        System.out.println("             Employees who will sell and receive commissions this month ");
+
+        System.out.println("     ");
+
+
+
+        System.out.println("\tEmployees who will sell and receive commissions this month");
 
         System.out.println("     ");
 
@@ -60,9 +67,9 @@ public class Main {
         }
 
 
-        System.out.println("     ");
-        System.out.println("                Our top 5 home sales employees this month");
-        System.out.println("     ");
+        System.out.println("");
+        System.out.println("\tOur top 5 home sales employees this month");
+        System.out.println("");
 
         TopMonth<String> TopEmployee = new TopMonth<String>();
         TopEmployee.add("Harry Williams ");
@@ -80,6 +87,7 @@ public class Main {
         for(int i = 0; i < TopEmployeeList.size(); i++){
             System.out.println(" Employee Name  " + TopEmployeeList.get(i));
         }
+
 
 
 

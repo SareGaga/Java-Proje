@@ -2,11 +2,9 @@ public  interface DatabaseManager  {
 
 
 
-      void Add(DatabaseManager databaseManager);
+       public void Add();
 
-      default void Add() {
-            System.out.println("Updated new commissions percentages"    );
-      }
+
 }
 
 

@@ -15,11 +15,7 @@ public  class BonusPayUI  {
     }
 
 
-    public void Add(EmployeeSellingHouseForRent databaseManager) {
-        databaseManager.Add();
 
-
-    }
 
 
     public void showprice() {
@@ -37,6 +33,14 @@ public  class BonusPayUI  {
 
 
 
+    }
+
+    public  void Add (EmployeeSellingHouseForSale employeeSellingHouseForSale){
+        employeeSellingHouseForSale.Add();
+    }
+
+    public  void Add (EmployeeSellingHouseForRent employeeSellingHouseForRent){
+        employeeSellingHouseForRent.Add();
     }
 
 
